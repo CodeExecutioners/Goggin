@@ -21,6 +21,18 @@ handlers:
 - url: /sass
   static_dir: sass 
   
+- url: /left-sidebar
+  script: left-sidebar.app 
+ 
+- url: /right-sidebar
+  script: right-sidebar.app 
+  
+- url: /no-sidebar
+  script: no-sidebar.app 
+  
+- url: /two-sidebar
+  script: two-sidebar.app 
+ 
 - url: .*
   script: main.app
 
