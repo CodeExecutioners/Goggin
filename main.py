@@ -28,10 +28,12 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         #self.response.write('Hello world!')
 		template_values ={}
-		template = JINJA_ENVIRONMENT.get_template('index.html')
+		path = self.request.path
+		template = JINJA_ENVIRONMENT.get_template('templates/index.html')
 		self.response.write(template.render(template_values))
 		
-
+		
 app = webapp2.WSGIApplication([
-    ('/', MainHandler)
+    ('/', MainHandler),
+
 ], debug=True)
