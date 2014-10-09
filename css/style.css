@@ -273,6 +273,9 @@
 				display: block;
 				width: 100%;
 			}
+					#about.image.featured img {
+				width: 50%;
+			}
 
 /* Icon */
 
