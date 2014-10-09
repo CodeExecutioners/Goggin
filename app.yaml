@@ -1,4 +1,4 @@
-application: dancingoggin
+application: goggin-485
 version: dev
 runtime: python27
 api_version: 1
@@ -24,8 +24,8 @@ handlers:
 - url: /left-sidebar
   script: left-sidebar.app 
  
-- url: /right-sidebar
-  script: right-sidebar.app 
+- url: /resources
+  script: resources.app 
   
 - url: /no-sidebar
   script: no-sidebar.app 
