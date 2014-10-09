@@ -46,11 +46,6 @@
 		border-bottom: dotted 1px;
 	}
 
-		a:hover {
-			color: #37c0fb;
-			border-bottom-color: transparent;
-		}
-
 	strong, b {
 		font-weight: 600;
 	}
@@ -253,6 +248,11 @@
 			.image.left img {
 				display: block;
 				width: 100%;
+			}
+
+			.image.left.social img {
+				padding-left: 1.5em;
+				width: 90%;
 			}
 
 		.image.fit {
@@ -702,12 +702,13 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../images/banner.jpg");
-		background-position: center center;
+		background-image: url("../images/Europe.jpg");
+		background-position: 0% 32%;
 		background-size: cover;
 		height: 28em;
 		text-align: center;
 		position: relative;
+		
 	}
 
 		#banner header {
@@ -748,7 +749,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: 2em 0 0 0;
 	}
 
 		.wrapper.style1 {
