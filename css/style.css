@@ -273,6 +273,9 @@
 				display: block;
 				width: 100%;
 			}
+					#about.image.featured img {
+				width: 50%;
+			}
 
 /* Icon */
 
@@ -703,12 +706,13 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../images/banner.jpg");
+		background-image: url("../images/Europe.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
 		text-align: center;
 		position: relative;
+		
 	}
 
 		#banner header {
