@@ -1,0 +1,43 @@
+application: goggin-485
+version: dev
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+  
+- url: /images
+  static_dir: images
+  
+- url: /sass
+  static_dir: sass 
+  
+- url: /left-sidebar
+  script: left-sidebar.app 
+ 
+- url: /right-sidebar
+  script: right-sidebar.app 
+  
+- url: /no-sidebar
+  script: no-sidebar.app 
+  
+- url: /two-sidebar
+  script: two-sidebar.app 
+ 
+- url: .*
+  script: main.app
+
+libraries:
+- name: jinja2
+  version: latest
+- name: webapp2
+  version: latest

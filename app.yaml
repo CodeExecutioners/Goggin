@@ -33,6 +33,9 @@ handlers:
 - url: /two-sidebar
   script: two-sidebar.app 
  
+- url: /index
+  script: main.cpp
+ 
 - url: .*
   script: main.app
 
