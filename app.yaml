@@ -21,17 +21,17 @@ handlers:
 - url: /sass
   static_dir: sass 
   
-- url: /left-sidebar
-  script: left-sidebar.app 
+- url: /contact
+  script: contact.app 
  
-- url: /right-sidebar
-  script: right-sidebar.app 
+- url: /resources
+  script: resources.app 
   
-- url: /no-sidebar
-  script: no-sidebar.app 
+- url: /photos
+  script: photos.app 
   
-- url: /two-sidebar
-  script: two-sidebar.app 
+- url: /calendar
+  script: last.app 
  
 - url: /index
   script: main.cpp
